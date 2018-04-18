@@ -20,6 +20,10 @@ public class Main extends Activity implements View.OnClickListener {
 
         init();
 
+        IBtnMenu.setOnClickListener(this);
+        IBtnCat.setOnClickListener(this);
+        IBtnPop.setOnClickListener(this);
+        IBtnAbout.setOnClickListener(this);
     }
 
     private void init() {

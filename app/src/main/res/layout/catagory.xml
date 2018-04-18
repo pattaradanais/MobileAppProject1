@@ -10,7 +10,7 @@
         android:layout_height="match_parent">
 
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/ImgBtn_Cat1"
             android:layout_width="72dp"
             android:layout_height="60dp"
             app:srcCompat="@android:color/holo_blue_bright"
@@ -18,7 +18,7 @@
             tools:layout_editor_absoluteY="50dp" />
 
         <ImageButton
-            android:id="@+id/imageButton8"
+            android:id="@+id/ImgBtn_Cat2"
             android:layout_width="72dp"
             android:layout_height="60dp"
             app:srcCompat="@android:color/holo_blue_dark"
@@ -26,7 +26,7 @@
             tools:layout_editor_absoluteY="50dp" />
 
         <ImageButton
-            android:id="@+id/imageButton9"
+            android:id="@+id/ImgBtn_Cat3"
             android:layout_width="71dp"
             android:layout_height="60dp"
             app:srcCompat="@android:color/holo_blue_light"
@@ -34,7 +34,7 @@
             tools:layout_editor_absoluteY="50dp" />
 
         <ImageButton
-            android:id="@+id/imageButton10"
+            android:id="@+id/ImgBtn_Cat4"
             android:layout_width="72dp"
             android:layout_height="60dp"
             app:srcCompat="@android:color/holo_green_dark"
@@ -42,7 +42,7 @@
             tools:layout_editor_absoluteY="168dp" />
 
         <ImageButton
-            android:id="@+id/imageButton11"
+            android:id="@+id/ImgBtn_Cat5"
             android:layout_width="71dp"
             android:layout_height="60dp"
             app:srcCompat="@android:color/holo_green_light"
@@ -50,7 +50,7 @@
             tools:layout_editor_absoluteY="168dp" />
 
         <ImageButton
-            android:id="@+id/imageButton12"
+            android:id="@+id/ImgBtn_Cat6"
             android:layout_width="71dp"
             android:layout_height="60dp"
             app:srcCompat="@android:color/holo_orange_dark"
@@ -58,7 +58,7 @@
             tools:layout_editor_absoluteY="168dp" />
 
         <ImageButton
-            android:id="@+id/imageButton13"
+            android:id="@+id/ImgBtn_Cat7"
             android:layout_width="72dp"
             android:layout_height="59dp"
             app:srcCompat="@android:color/holo_orange_light"
@@ -66,7 +66,7 @@
             tools:layout_editor_absoluteY="284dp" />
 
         <ImageButton
-            android:id="@+id/imageButton14"
+            android:id="@+id/ImgBtn_Cat8"
             android:layout_width="72dp"
             android:layout_height="58dp"
             app:srcCompat="@android:color/holo_purple"
@@ -74,7 +74,7 @@
             tools:layout_editor_absoluteY="284dp" />
 
         <ImageButton
-            android:id="@+id/imageButton15"
+            android:id="@+id/ImgBtn_Cat9"
             android:layout_width="71dp"
             android:layout_height="58dp"
             app:srcCompat="@android:color/holo_red_dark"
