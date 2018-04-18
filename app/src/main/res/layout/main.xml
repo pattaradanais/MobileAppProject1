@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/ImgBtn_Menu"
+            android:layout_width="117dp"
+            android:layout_height="94dp"
+            app:srcCompat="@color/colorAccent"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="101dp" />
+
+        <ImageButton
+            android:id="@+id/ImgBtn_catagory"
+            android:layout_width="117dp"
+            android:layout_height="94dp"
+            app:srcCompat="@color/colorPrimary"
+            tools:layout_editor_absoluteX="220dp"
+            tools:layout_editor_absoluteY="101dp" />
+
+        <ImageButton
+            android:id="@+id/ImgBtn_Pop"
+            android:layout_width="117dp"
+            android:layout_height="96dp"
+            app:srcCompat="@android:color/holo_blue_bright"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="221dp" />
+
+        <ImageButton
+            android:id="@+id/ImgBtn_About"
+            android:layout_width="117dp"
+            android:layout_height="96dp"
+            app:srcCompat="@android:color/holo_green_dark"
+            tools:layout_editor_absoluteX="220dp"
+            tools:layout_editor_absoluteY="221dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>
