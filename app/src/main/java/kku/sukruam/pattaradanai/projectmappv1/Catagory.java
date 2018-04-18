@@ -1,6 +1,7 @@
 package kku.sukruam.pattaradanai.projectmappv1;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -29,20 +30,38 @@ public class Catagory extends Activity implements View.OnClickListener {
     }
 
 
+
     private void init() {
-        IBtnCat1 = (ImageButton) findViewById(R.id.ImgBtn_Cat1);
-        IBtnCat2 = (ImageButton) findViewById(R.id.ImgBtn_Cat2);
-        IBtnCat3 = (ImageButton) findViewById(R.id.ImgBtn_Cat3);
-        IBtnCat4 = (ImageButton) findViewById(R.id.ImgBtn_Cat4);
-        IBtnCat5 = (ImageButton) findViewById(R.id.ImgBtn_Cat5);
-        IBtnCat6 = (ImageButton) findViewById(R.id.ImgBtn_Cat6);
-        IBtnCat7 = (ImageButton) findViewById(R.id.ImgBtn_Cat7);
-        IBtnCat8 = (ImageButton) findViewById(R.id.ImgBtn_Cat8);
-        IBtnCat9 = (ImageButton) findViewById(R.id.ImgBtn_Cat9);
+        IBtnCat1 = (ImageButton) findViewById(R.id.ImgBtn_Cat1);  //อัด
+        IBtnCat2 = (ImageButton) findViewById(R.id.ImgBtn_Cat2);  //ทอด
+        IBtnCat3 = (ImageButton) findViewById(R.id.ImgBtn_Cat3);  //ยำ
+        IBtnCat4 = (ImageButton) findViewById(R.id.ImgBtn_Cat4);  //ต้มจืด แกง
+        IBtnCat5 = (ImageButton) findViewById(R.id.ImgBtn_Cat5);  //อีสาน
+        IBtnCat6 = (ImageButton) findViewById(R.id.ImgBtn_Cat6);  //นึ่ง ตุ๋น ต้ม
+        IBtnCat7 = (ImageButton) findViewById(R.id.ImgBtn_Cat7);  // น้ำพริก
+        IBtnCat8 = (ImageButton) findViewById(R.id.ImgBtn_Cat8); // ปิ้ง ย่าง อบ
+        IBtnCat9 = (ImageButton) findViewById(R.id.ImgBtn_Cat9); //ของหวาน
     }
 
     @Override
     public void onClick(View view) {
+        Intent intent = null;
+        switch (view.getId()){
+            case R.id.ImgBtn_Cat1:
+                //intent = new Intent(getApplicationContext(),Cat1.class);
+                break;
+            case R.id.ImgBtn_Cat2:
+            case R.id.ImgBtn_Cat3:
+            case R.id.ImgBtn_Cat4:
+            case R.id.ImgBtn_Cat5:
+            case R.id.ImgBtn_Cat6:
+            case R.id.ImgBtn_Cat7:
+            case R.id.ImgBtn_Cat8:
+            case R.id.ImgBtn_Cat9:
+
+
+        }
+
 
     }
 }

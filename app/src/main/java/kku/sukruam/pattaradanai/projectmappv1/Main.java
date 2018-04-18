@@ -1,6 +1,7 @@
 package kku.sukruam.pattaradanai.projectmappv1;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -35,6 +36,17 @@ public class Main extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
+        Intent intent = null;
+        switch (view.getId()) {
+            case R.id.ImgBtn_Menu:
+                //intent = new Intent(getApplicationContext(),Menu.class);
+                break;
+            case R.id.ImgBtn_catagory:
 
+            case R.id.ImgBtn_Pop:
+
+            case R.id.ImgBtn_About:
+
+        }
     }
 }
