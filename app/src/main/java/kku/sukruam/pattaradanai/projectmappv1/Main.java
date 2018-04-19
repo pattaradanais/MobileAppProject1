@@ -1,6 +1,7 @@
 package kku.sukruam.pattaradanai.projectmappv1;
 
 import android.app.Activity;
+import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -49,4 +50,6 @@ public class Main extends Activity implements View.OnClickListener {
 
         }
     }
+
+
 }
