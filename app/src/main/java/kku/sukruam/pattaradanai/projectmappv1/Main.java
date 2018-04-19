@@ -13,7 +13,7 @@ import android.widget.ImageButton;
  */
 
 public class Main extends Activity implements View.OnClickListener {
-    ImageButton IBtnMenu,IBtnCat,IBtnPop,IBtnAbout;
+  // ImageButton IBtnMenu,IBtnCat,IBtnPop,IBtnAbout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,22 +22,22 @@ public class Main extends Activity implements View.OnClickListener {
 
         init();
 
-        IBtnMenu.setOnClickListener(this);
+      /*  IBtnMenu.setOnClickListener(this);
         IBtnCat.setOnClickListener(this);
         IBtnPop.setOnClickListener(this);
-        IBtnAbout.setOnClickListener(this);
+        IBtnAbout.setOnClickListener(this);*/
     }
 
     private void init() {
-        IBtnMenu = (ImageButton) findViewById(R.id.ImgBtn_Menu);
+        /*IBtnMenu = (ImageButton) findViewById(R.id.ImgBtn_Menu);
         IBtnCat = (ImageButton) findViewById(R.id.ImgBtn_catagory);
         IBtnPop = (ImageButton) findViewById(R.id.ImgBtn_Pop);
-        IBtnAbout = (ImageButton) findViewById(R.id.ImgBtn_About);
+        IBtnAbout = (ImageButton) findViewById(R.id.ImgBtn_About);*/
     }
 
     @Override
     public void onClick(View view) {
-        Intent intent = null;
+        /*Intent intent = null;
         switch (view.getId()) {
             case R.id.ImgBtn_Menu:
                 //intent = new Intent(getApplicationContext(),Menu.class);
@@ -48,7 +48,7 @@ public class Main extends Activity implements View.OnClickListener {
 
             case R.id.ImgBtn_About:
 
-        }
+        }*/
     }
 
 

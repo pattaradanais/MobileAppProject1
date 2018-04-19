@@ -32,6 +32,7 @@ public class ButtomNevigationActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             FragmentManager fragmentManager = getSupportFragmentManager();
             FragmentTransaction transaction = fragmentManager.beginTransaction();
+
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     transaction.replace(R.id.main_frame,new MainFragment()).commit();
@@ -65,6 +66,11 @@ public class ButtomNevigationActivity extends AppCompatActivity {
        // mainFrame = (FrameLayout) findViewById(R.id.main_frame);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.main_frame,new MainFragment()).commit();
 
        /* mainFragment = new MainFragment();
         favorite = new favFragment();
