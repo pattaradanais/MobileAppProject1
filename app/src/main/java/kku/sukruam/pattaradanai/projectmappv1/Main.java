@@ -13,7 +13,7 @@ import android.widget.ImageButton;
  */
 
 public class Main extends Activity implements View.OnClickListener {
-  // ImageButton IBtnMenu,IBtnCat,IBtnPop,IBtnAbout;
+   Button IBtnMenu,IBtnCat,IBtnPop,IBtnAbout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,33 +22,36 @@ public class Main extends Activity implements View.OnClickListener {
 
         init();
 
-      /*  IBtnMenu.setOnClickListener(this);
+        IBtnMenu.setOnClickListener(this);
         IBtnCat.setOnClickListener(this);
         IBtnPop.setOnClickListener(this);
-        IBtnAbout.setOnClickListener(this);*/
+        IBtnAbout.setOnClickListener(this);
     }
 
     private void init() {
-        /*IBtnMenu = (ImageButton) findViewById(R.id.ImgBtn_Menu);
-        IBtnCat = (ImageButton) findViewById(R.id.ImgBtn_catagory);
-        IBtnPop = (ImageButton) findViewById(R.id.ImgBtn_Pop);
-        IBtnAbout = (ImageButton) findViewById(R.id.ImgBtn_About);*/
+        IBtnMenu = (Button) findViewById(R.id.MenuBtn1);
+        IBtnCat = (Button) findViewById(R.id.MenuBtn2);
+        IBtnPop = (Button) findViewById(R.id.MenuBtn3);
+        IBtnAbout = (Button) findViewById(R.id.MenuBtn4);
     }
 
     @Override
     public void onClick(View view) {
-        /*Intent intent = null;
+        Intent intent = null;
         switch (view.getId()) {
-            case R.id.ImgBtn_Menu:
-                //intent = new Intent(getApplicationContext(),Menu.class);
+            case R.id.MenuBtn1:
+                //intent = new Intent(getApplicationContext(),Category.class);
                 break;
-            case R.id.ImgBtn_catagory:
+            case R.id.MenuBtn2:
+                intent = new Intent(getApplicationContext(),Category.class);
+                break;
 
-            case R.id.ImgBtn_Pop:
+            case R.id.MenuBtn3:
 
-            case R.id.ImgBtn_About:
+            case R.id.MenuBtn4:
 
-        }*/
+        }
+        startActivity(intent);
     }
 
 

@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.Toast;
 
 
@@ -18,7 +19,8 @@ import android.widget.Toast;
  * Use the {@link MainFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class MainFragment extends Fragment {
+public class MainFragment extends Fragment{
+    Button Btn1,Btn2,Btn3,Btn4;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -29,6 +31,8 @@ public class MainFragment extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+
+
 
     public MainFragment() {
         // Required empty public constructor
@@ -59,13 +63,25 @@ public class MainFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
     }
+
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_main, container, false);
+        View view =  inflater.inflate(R.layout.fragment_main, container, false);
+        Btn1 = (Button) view.findViewById(R.id.MenuBtn1);
+        Btn2 = (Button) view.findViewById(R.id.MenuBtn2);
+        Btn3 = (Button) view.findViewById(R.id.MenuBtn3);
+        Btn4 = (Button) view.findViewById(R.id.MenuBtn4);
+
+
+
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -90,6 +106,10 @@ public class MainFragment extends Fragment {
         super.onDetach();
         mListener = null;
     }
+
+
+
+
 
     /**
      * This interface must be implemented by activities that contain this

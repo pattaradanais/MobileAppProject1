@@ -13,14 +13,17 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:text="TextView" />
+            android:scrollHorizontally="false"
+            android:text="RECEPT BOOOK"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
 
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="409dp">
+            android:layout_height="484dp">
 
             <TableRow
                 android:layout_width="fill_parent"
@@ -34,14 +37,14 @@
                     android:layout_weight="0.5">
 
                     <Button
-                        android:id="@+id/button1"
+                        android:id="@+id/MenuBtn1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/colorPrimary"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:singleLine="false"
-                        android:text="Botton 1"
+                        android:text="MENU"
                         android:textSize="18sp" />
 
                     <ImageView
@@ -57,14 +60,14 @@
                     android:layout_weight="0.5">
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/MenuBtn2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/colorAccent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:singleLine="false"
-                        android:text="Botton 2"
+                        android:text="CATEGORY"
                         android:textSize="18sp" />
 
                     <ImageView
@@ -87,13 +90,13 @@
                     android:layout_weight="0.5">
 
                     <Button
-                        android:id="@+id/button3"
+                        android:id="@+id/MenuBtn3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/colorAccent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
-                        android:text="Button 3"
+                        android:text="RECOMMENDED"
                         android:textSize="18sp" />
 
                     <ImageView
@@ -109,13 +112,13 @@
                     android:layout_weight="0.5">
 
                     <Button
-                        android:id="@+id/button4"
+                        android:id="@+id/MenuBtn4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="@color/colorAccent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
-                        android:text="Button 4"
+                        android:text="ABOUT"
                         android:textSize="18sp" />
 
                     <ImageView
