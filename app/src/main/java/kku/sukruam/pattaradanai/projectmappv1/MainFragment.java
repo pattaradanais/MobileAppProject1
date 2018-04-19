@@ -1,9 +1,12 @@
 package kku.sukruam.pattaradanai.projectmappv1;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,7 +22,7 @@ import android.widget.Toast;
  * Use the {@link MainFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class MainFragment extends Fragment{
+public class MainFragment extends Fragment {
     Button Btn1,Btn2,Btn3,Btn4;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -69,14 +72,44 @@ public class MainFragment extends Fragment{
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView( LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view =  inflater.inflate(R.layout.fragment_main, container, false);
         Btn1 = (Button) view.findViewById(R.id.MenuBtn1);
+        Btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getContext(),"Button1 dont have acticity yet.",Toast.LENGTH_SHORT).show();
+            }
+        });
+
         Btn2 = (Button) view.findViewById(R.id.MenuBtn2);
+        Btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                FragmentTransaction transaction = fragmentManager.beginTransaction();
+                transaction.replace(R.id.main_frame,new Category()).commit();
+            }
+        });
+
         Btn3 = (Button) view.findViewById(R.id.MenuBtn3);
+        Btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getContext(),"Button3 dont have acticity yet.",Toast.LENGTH_SHORT).show();
+            }
+        });
+
         Btn4 = (Button) view.findViewById(R.id.MenuBtn4);
+        Btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getContext(),"Button4 dont have acticity yet.",Toast.LENGTH_SHORT).show();
+            }
+        });
+
 
 
 
@@ -109,6 +142,40 @@ public class MainFragment extends Fragment{
 
 
 
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+//        Btn1 = (Button) getActivity().findViewById(R.id.MenuBtn1);
+//        Btn2 = (Button) getActivity().findViewById(R.id.MenuBtn2);
+//        Btn3 = (Button) getActivity().findViewById(R.id.MenuBtn3);
+//        Btn4 = (Button) getActivity().findViewById(R.id.MenuBtn4);
+//        Btn1.setOnClickListener(this);
+//        Btn2.setOnClickListener(this);
+//        Btn3.setOnClickListener(this);
+//        Btn4.setOnClickListener(this);
+    }
+
+ /*   @Override
+    public void onClick(View view) {
+        Intent intent = null;
+        switch (view.getId()) {
+            case R.id.MenuBtn1:
+                Toast.makeText(getContext(),"Dont have acticity yet.",Toast.LENGTH_SHORT).show();
+            case R.id.MenuBtn2:
+                intent = new Intent(getActivity().getApplicationContext(), Category.class);
+
+                break;
+            case R.id.MenuBtn3:
+                Toast.makeText(getContext(),"Button3 dont have acticity yet.",Toast.LENGTH_SHORT).show();
+            case R.id.MenuBtn4:
+                Toast.makeText(getContext(),"Button4 dont have acticity yet.",Toast.LENGTH_SHORT).show();
+
+
+
+        }
+        startActivity(intent);
+
+    }   */
 
 
     /**

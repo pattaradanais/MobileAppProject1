@@ -40,6 +40,7 @@ public class Main extends Activity implements View.OnClickListener {
         Intent intent = null;
         switch (view.getId()) {
             case R.id.MenuBtn1:
+
                 //intent = new Intent(getApplicationContext(),Category.class);
                 break;
             case R.id.MenuBtn2:
