@@ -9,14 +9,15 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="wrap_content"
             android:text="CATEGORY"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="482dp">
+            android:layout_height="474dp">
 
             <TableRow
                 android:layout_width="fill_parent"
@@ -33,7 +34,7 @@
                         android:id="@+id/CatBtn1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@color/colorPrimary"
+                        android:background="@android:color/transparent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:singleLine="false"
@@ -56,7 +57,7 @@
                         android:id="@+id/CatBtn2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@color/colorAccent"
+                        android:background="@android:color/transparent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:singleLine="false"
@@ -86,7 +87,7 @@
                         android:id="@+id/CatBtn3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@color/colorAccent"
+                        android:background="@android:color/transparent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:text="SPICY SALAD"
@@ -108,7 +109,7 @@
                         android:id="@+id/CatBtn4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@color/colorAccent"
+                        android:background="@android:color/transparent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:text="BAKE AND GRILL"
@@ -137,7 +138,7 @@
                         android:id="@+id/CatBtn5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@color/colorPrimary"
+                        android:background="@android:color/transparent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:singleLine="false"
@@ -160,7 +161,7 @@
                         android:id="@+id/CatBtn6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@color/colorAccent"
+                        android:background="@android:color/transparent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:singleLine="false"
@@ -190,7 +191,7 @@
                         android:id="@+id/CatBtn7"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@color/colorAccent"
+                        android:background="@android:color/transparent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:text="DESSERT"
@@ -212,7 +213,7 @@
                         android:id="@+id/CatBtn8"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@color/colorAccent"
+                        android:background="@android:color/transparent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:text="OTHER"

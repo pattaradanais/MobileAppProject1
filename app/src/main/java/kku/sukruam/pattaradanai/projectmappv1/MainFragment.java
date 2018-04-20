@@ -90,6 +90,7 @@ public class MainFragment extends Fragment {
             public void onClick(View view) {
                 FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                 FragmentTransaction transaction = fragmentManager.beginTransaction();
+                transaction.addToBackStack(null);
                 transaction.replace(R.id.main_frame,new Category()).commit();
             }
         });
