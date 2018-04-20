@@ -1,12 +1,10 @@
 package kku.sukruam.pattaradanai.projectmappv1;
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 /**
  * Created by MThai on 4/18/2018.
@@ -18,7 +16,7 @@ public class Main extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.mainTest);
 
         init();
 
