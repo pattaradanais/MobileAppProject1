@@ -16,7 +16,7 @@ public class Main extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.mainTest);
+        setContentView(R.layout.main_test);
 
         init();
 

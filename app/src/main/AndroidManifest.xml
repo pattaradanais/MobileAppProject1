@@ -16,6 +16,8 @@
 <category android:name="android.intent.category.LAUNCHER" />
 </intent-filter>
     </activity>
+        <activity android:name=".Menu2" ></activity>
+        <activity android:name=".Menu3" ></activity>
       <!--  <activity
             android:name=".ButtomNevigationActivity"
             android:label="@string/title_activity_buttom_nevigation"></activity> -->

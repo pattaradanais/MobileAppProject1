@@ -80,7 +80,9 @@ public class MainFragment extends Fragment {
         Btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getContext(),"Button1 dont have acticity yet.",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getActivity(),Menu2.class);
+                startActivity(intent);
+
             }
         });
 

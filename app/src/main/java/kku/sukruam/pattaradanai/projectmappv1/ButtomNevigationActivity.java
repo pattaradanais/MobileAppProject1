@@ -1,6 +1,7 @@
 package kku.sukruam.pattaradanai.projectmappv1;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -35,6 +36,7 @@ public class ButtomNevigationActivity extends AppCompatActivity {
 
             switch (item.getItemId()) {
                 case R.id.navigation_home:
+
                     transaction.replace(R.id.main_frame,new MainFragment()).commit();
                     //setFragment(mainFragment);
                     return true;

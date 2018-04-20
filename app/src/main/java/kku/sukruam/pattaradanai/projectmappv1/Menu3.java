@@ -8,19 +8,19 @@ import android.widget.TextView;
 import java.lang.reflect.AccessibleObject;
 
 public class Menu3 extends Activity {
-    private TextView menu2;
+    private TextView menu3;
     // private TextView menu3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.menu2);
+        setContentView(R.layout.menu3);
 
         Intent getIntent=getIntent();
         String title =getIntent.getStringExtra("title");
 
-        menu2=(TextView) findViewById(R.id.menu3);
-        menu2.setText(title);
+        menu3=(TextView) findViewById(R.id.menu3);
+        menu3.setText(title);
     }
 }
 

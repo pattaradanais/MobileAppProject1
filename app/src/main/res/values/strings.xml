@@ -7,6 +7,198 @@
     <string name="favorite">Favorite</string>
     <string name="account">Account</string>
 
+    <string-array name="data">
+        <item>ข้าวผัดทะเล</item>
+        <item> ข้าวผัดปลาอินทรี</item>
+        <item> ข้าวผัดโป๊ะแตก</item>
+        <item> ข้าวผัดแหนม</item>
+        <item> ผัดเผ็ดปลาหมึกราดข้าว</item>
+        <item> ข้าวผัดน้ำพริกทรงเครื่อง</item>
+        <item> ข้าวผัดเนื้อเค็ม</item>
+        <item> ข้าวผัดมันกุ้ง</item>
+        <item> ข้าวต้มหมูสับ</item>
+        <item> ข้าวผัดกุ้งกรอบ</item>
+        <item>ข้าวอบสับปะรด</item>
+        <item>ข้าวอบหม้อดิน</item>
+        <item>ข้าวมันส้มตำ</item>
+        <item>ข้าวต้มเครื่องในไก่</item>
+        <item>ข้าวผัดไก่สะตอ</item>
+        <item>ข้าวผัดตับหมู</item>
+        <item>ข้าวผัดปูทะเล</item>
+        <item>โจ๊กไก่</item>
+        <item>โจ๊กหมู</item>
+        <item>ข้าวต้มกุ้ง</item>
+        <item>ข้าวต้มอนามัย</item>
+        <item>ข้าวต้มปลาหมึก</item>
+        <item>ข้าวผัดสามสหาย</item>
+        <item>ข้าวผัดปู</item>
+        <item> ข้าวผัดกุ้ง</item>
+        <item>ข้าวผัดอเมริกัน</item>
+        <item>ข้าวผัดกระเพรากุ้งสับ</item>
+        <item> ข้าวผัดกระเพราหมู</item>
+        <item> ข้าวต้มหัวปลา</item>
+        <item> ข้าวผัดกระเพราไก่</item>
+        <item> ข้าวอบมะพร้าวน้ำหอม</item>
+        <item> ข้าวต้มปลาช่อน</item>
+        <item> ข้าวต้มเป็ดตุ๋น</item>
+        <item> ข้าวผัดกระหรี่เนื้อ</item>
+        <item> ข้าวอบเห็ด</item>
+        <item> ข้าวราดหน้าเนื้อ</item>
+        <item> ข้าวผัดน้ำพริกปลาสลิด</item>
+        <item>ข้าวต้มปู</item>
+        <item>ข้าวต้มกระดูกหมู</item>
+        <item>ข้าวผัดพริกเนื้อ</item>
+        <item>ข้าวผัดปลาหมึกยัดไส้</item>
+        <item>ข้าวต้มทรงเครื่อง</item>
+        <item>หมูทอดกระเทียมพริกไทย</item>
+        <item>ผัดมักกะโรนี</item>
+        <item>ไข่เจียวหมูสับราดข้าว</item>
+        <item>ข้าวคลุกกะปิ</item>
+        <item>ข้าวผัดปลากระป๋อง</item>
+        <item>ข้าวผัดหมู</item>
+        <item> ข้าวยำคลุก</item>
+        <item>ต้มยำซี่โครงหมู</item>
+        <item>ต้มยำกุ้งเห็ดโคน</item>
+        <item> แกงผักกาดจอ</item>
+        <item>แกงจืดลูกชิ้นหมูสับ</item>
+        <item> แกงมะระสอดไส้</item>
+        <item> ต้มหน่อไม้แห้ง</item>
+        <item> ต้มส้มปลาทู</item>
+        <item> แกงกะหรี่ไก่</item>
+        <item> แกงฮังเลหมู(พม่า)</item>
+        <item> ตำยำไก่</item>
+        <item> ต้มยำขาหมู</item>
+        <item> แกงจืดไข่น้ำ</item>
+        <item> ขาหมูต้มถั่ว</item>
+        <item> เป็ดตุ๋น</item>
+        <item> ต้มกะทิหัวไชโป๊</item>
+        <item> ต้มกะทิปลาช่อนแห้ง</item>
+        <item> ต้มกะทิเนื้อเค็ม</item>
+        <item> ต้มกะทิปูเค็ม</item>
+        <item> ต้มยำปลาช่อน</item>
+        <item> ต้มเครื่องในหมู</item>
+        <item>ต้มกะทิฟักทอง</item>
+        <item>แกงจืดปลาหมึกยัดไส้หมูสับ</item>
+        <item>น้ำซุปกระดูกหมู</item>
+        <item>ขาหมูต้มเค็ม</item>
+        <item> แกงส้มบอน</item>
+        <item> แกงกะหรี่ไก่</item>
+        <item> แกงต้มจืดลูกชิ้นหมู</item>
+        <item>แกงพระรามลงสรง</item>
+        <item>แกงฮังเล</item>
+        <item> แกงเผ็ดเป็ดยาง</item>
+        <item> แกงป่าปลาดุก</item>
+        <item> แกงคั่วหอยขม</item>
+        <item> ต้มส้มปลาตะเพียน</item>
+        <item>แกงจืดตำลึงหมูบะช่อ</item>
+        <item>แกงส้มผักกะเฉด</item>
+        <item>ไก่ตุ๋น</item>
+        <item>แกงกบกะท้อน</item>
+        <item>แกงส้มพริกสดปลาย่าง</item>
+        <item>แกงเลียงน้ำเต้า</item>
+        <item>แกงเหลืองหน่อไม้</item>
+        <item>แกงลาว</item>
+        <item>แกงเขียวหวานไก่</item>
+        <item>แกงไตปลา</item>
+        <item> ผักกาดตุ๋นซี่โครงหมู</item>
+        <item>ไก่ตุ๋นเครื่องยาจีน</item>
+        <item> เนื้อต้มเค็ม</item>
+        <item>ต้มยำปลากรอบ</item>
+        <item>หมูพะโล้</item>
+        <item>แกงจืดเห็ดโคน</item>
+        <item> ต้มยำกุ้งนาง</item>
+        <item> แกงส้มหน่อไม้กุ้งสด</item>
+        <item> แกงพะแนงเนื้อ</item>
+        <item>แกงส้มปลาเนื้ออ่อน</item>
+        <item>แกงยออ่อน</item>
+        <item>แกงอ่อมมะระ</item>
+        <item>แกงเผ็ดไก่</item>
+        <item>แกงเขียวหวานลูกชิ้นปลากราย</item>
+        <item>แกงเลียงพม่า</item>
+        <item>พะแนงกุ้ง</item>
+        <item>แกงหมูเทโพ</item>
+        <item>แกงคั่วสับปะรด</item>
+        <item>ฉู่ฉี่ปลาทู</item>
+        <item>ต้มข่าไก่</item>
+        <item>แกงขี้เหล็ก</item>
+        <item>ฉู่ฉี่ถั่วแขก</item>
+        <item>แกงจืดมะละยัดไส้</item>
+        <item>แกงจืดวุ้นเส้น</item>
+        <item>ฉู่ฉี่ปลาช่อนทอดกรอบ</item>
+
+
+        <item>ปูทอดกระเทียมพริกไทย</item>
+        <item>กุ้งพันอ้อย</item>
+        <item>ขนมปังแกงกะหรี่</item>
+        <item> กุ้งพันตะไคร้</item>
+        <item> ปลาช่อนลุยสวน</item>
+        <item> ยำปลาดุกฟู</item>
+        <item>ไข่เจียวใส่ไข่มดแดง</item>
+        <item>ปลากระพงทอดน้ำปลา</item>
+        <item>ยอดตำลึงชุปแป้งทอดทรงเครื่อง</item>
+        <item>พริกหยวกทรงเครื่องชุบแป้งทอด</item>
+        <item>ทอดมันปลากราย</item>
+        <item>กุ้งชุปแป้งทอดทรงเครื่อง</item>
+        <item>เต้าหูคลุกไข่ทอด</item>
+        <item>ไข่เจียวญี่ปุ่น</item>
+        <item> ล่าเตียง	ปลาดุกหมกกะปิ</item>
+        <item> เต้าหู้ทอดทรงเครื่อง</item>
+        <item> ปีกไก่ทอดตะไคร้</item>
+        <item> ปีกไก่ทอดน้ำแดง</item>
+        <item> กุ้งกระเบื้อง</item>
+        <item> ปลาเนื้ออ่อนราดพริก</item>
+        <item> ไข่เจียวปูม้า</item>
+        <item> ไก่ทอดหาดใหญ่</item>
+        <item>เทมปุระ</item>
+        <item>ไก่ทอดคัสสุ</item>
+        <item>ขนมปังหน้าหมู</item>
+        <item>ไก่ทอดกระเทียมพริกไทย</item>
+        <item>กล้วยแขก</item>
+        <item>ปีกไก่ทอดคั่วพริกเกลือ</item>
+        <item> ปลาราดพริก</item>
+        <item>พาสต้าผัดต้มยำไก่</item>
+        <item> ปลาผัดสะตอ</item>
+        <item> นิกุมิโซะ</item>
+        <item>สปาเก็ตตี้ผัดผงกะหรี่ไก่</item>
+        <item>ผัดไทย</item>
+        <item> ผัดกระเพราไก่</item>
+        <item> ข้าวผัดกะทิขิง</item>
+        <item> ปลาหมึกผัดไข่เค็ม</item>
+        <item> ผัดไทกุ้งสด</item>
+        <item> ไก่ผัดขิง</item>
+        <item> ปลาหมึกผัดกระเทียมพริกไทย</item>
+        <item> ไก่ผัดพริกแกง</item>
+        <item> กุ้งผัดผงกะหรี่</item>
+        <item>ผัดวุ้นเส้นระเพราหมูสับ</item>
+        <item> ผัดเปรี้ยวหวานหมู</item>
+        <item> ข้าวผัดกุ้ง</item>
+        <item> ผัดเนื้อวัวโพนยางคำ</item>
+        <item> ผัดผักบุ้งไฟแดง</item>
+        <item> ปลาบึกผัดฉ่า</item>
+        <item> ปลาหิมะผัดผงกะหรี่</item>
+        <item> ผัดผักกวางตุ้งหมูสับ</item>
+        <item> เนื้อวัวผัดบวบขิง</item>
+        <item> มาม่าผัดฉ่าหอยแมลง</item>
+        <item> ข้าวผัดปลาทูน้ำพริกกะปิ</item>
+        <item>ข้าวผัดไข่</item>
+        <item>ข้าวหน้าหมูกระเทียม</item>
+        <item>หอยลายผัดพริกเผา</item>
+        <item>ซี่โครงหมูหวาน</item>
+        <item>ปลาช่อนผัดคื่นฉ่าย</item>
+        <item>ผัดเผ็ดปลาดุก</item>
+        <item>กุ้งผัดเห็ดหอม</item>
+        <item>เนื้อวัวผัดซอสส้ม</item>
+        <item>ไข่คั่วกุ้ง</item>
+        <item>กุ้งผัดไข่</item>
+        <item> หมูผัดพริกไทยดำ</item>
+        <item> ข้าวผัดหมูแดง</item>
+        <item> เส้นหมีผัดผักกระเฉด</item>
+        <item> เนื้อวัวผัดกระเทียม</item>
+        <item> ผัดคะน้าเจ</item>
+
+    </string-array>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

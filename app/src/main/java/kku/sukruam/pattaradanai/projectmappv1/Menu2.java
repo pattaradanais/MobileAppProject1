@@ -20,14 +20,13 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class Menu2 {
+public class Menu2 extends Activity {
 
 
     /**
      * Created by USER on 19/4/2561.
      */
 
-    public class menu extends Activity {
         private String[] data;
         private ListView listView1;
         private ArrayList<listEntry> data_normal;
@@ -37,7 +36,7 @@ public class Menu2 {
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.menu);
+            setContentView(R.layout.menu2);
 
             data = getResources().getStringArray(R.array.data);
 
@@ -92,8 +91,8 @@ public class Menu2 {
             listView1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Toast.makeText(menu.this,data_sreach.get(position).getTitle(),Toast.LENGTH_SHORT).show();
-                    Intent intent=new Intent(menu.this,Menu3.class);
+                    Toast.makeText(Menu2.this,data_sreach.get(position).getTitle(),Toast.LENGTH_SHORT).show();
+                    Intent intent=new Intent(Menu2.this,Menu3.class);
                     intent.putExtra("title",data_sreach.get(position).getTitle());
                     startActivity(intent);
                 }
@@ -107,8 +106,8 @@ public class Menu2 {
             listView1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Toast.makeText(menu.this,data_normal.get(position).getTitle(),Toast.LENGTH_SHORT).show();
-                    Intent intent=new Intent(menu.this,Menu3.class);
+                    Toast.makeText(Menu2.this,data_normal.get(position).getTitle(),Toast.LENGTH_SHORT).show();
+                    Intent intent=new Intent(Menu2.this,Menu3.class);
                     intent.putExtra("title",data_normal.get(position).getTitle());
                     startActivity(intent);
                 }
@@ -143,7 +142,7 @@ public class Menu2 {
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
 
-                convertView = View.inflate(menu.this,R.layout.list_item_layout,null);
+                convertView = View.inflate(Menu2.this,R.layout.list_item_layout,null);
 
                 if (convertView !=null) {
 
@@ -165,4 +164,4 @@ public class Menu2 {
     }
 
 
-}
+
