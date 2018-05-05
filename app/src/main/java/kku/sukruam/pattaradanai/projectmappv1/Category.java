@@ -34,7 +34,8 @@ public class Category extends Fragment  {
         BtnCat1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getActivity(),MainActivityFried.class);
+                startActivity(intent);
             }
         });
 
@@ -43,7 +44,8 @@ public class Category extends Fragment  {
         BtnCat2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getActivity(),MainActivityStir.class);
+                startActivity(intent);
             }
         });
 
@@ -52,7 +54,8 @@ public class Category extends Fragment  {
         BtnCat3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getActivity(),MainActivityCurry.class);
+                startActivity(intent);
             }
         });
 
@@ -61,7 +64,8 @@ public class Category extends Fragment  {
         BtnCat4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getActivity(),MainActivityGrill.class);
+                startActivity(intent);
             }
         });
 
@@ -70,7 +74,8 @@ public class Category extends Fragment  {
         BtnCat5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getActivity(),MainActivitySpicy.class);
+                startActivity(intent);
             }
         });
 
@@ -79,7 +84,8 @@ public class Category extends Fragment  {
         BtnCat6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getActivity(),MainActivityEsan.class);
+                startActivity(intent);
             }
         });
 
@@ -88,18 +94,12 @@ public class Category extends Fragment  {
         BtnCat7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getActivity(),MainActivityDest.class);
+                startActivity(intent);
             }
         });
 
 
-        BtnCat8 = (Button) view.findViewById(R.id.CatBtn8);
-        BtnCat8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
 
 
 

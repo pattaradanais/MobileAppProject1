@@ -37,7 +37,7 @@ public class ButtomNevigationActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
 
-                    transaction.replace(R.id.main_frame,new MainFragment()).commit();
+                    transaction.replace(R.id.main_frame,new Category()).commit();
                     //setFragment(mainFragment);
                     return true;
                 case R.id.navigation_favorite:
@@ -72,7 +72,7 @@ public class ButtomNevigationActivity extends AppCompatActivity {
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.replace(R.id.main_frame,new MainFragment()).commit();
+        transaction.replace(R.id.main_frame,new Category()).commit();
 
        /* mainFragment = new MainFragment();
         favorite = new favFragment();

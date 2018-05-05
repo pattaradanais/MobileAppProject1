@@ -7,17 +7,9 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="CATEGORY"
-            android:textAlignment="center"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="474dp">
+            android:layout_height="467dp">
 
             <TableRow
                 android:layout_width="fill_parent"
@@ -38,7 +30,7 @@
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:singleLine="false"
-                        android:text="FRIED"
+                        android:text="อาหารทอด"
                         android:textSize="18sp" />
 
                     <ImageView
@@ -61,7 +53,7 @@
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:singleLine="false"
-                        android:text="CURRY"
+                        android:text="อาหารผัด"
                         android:textSize="18sp" />
 
                     <ImageView
@@ -90,7 +82,7 @@
                         android:background="@android:color/transparent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
-                        android:text="SPICY SALAD"
+                        android:text="แกง ต้ม"
                         android:textSize="18sp" />
 
                     <ImageView
@@ -112,7 +104,7 @@
                         android:background="@android:color/transparent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
-                        android:text="BAKE AND GRILL"
+                        android:text="ปิ้ง ย่าง"
                         android:textSize="18sp" />
 
                     <ImageView
@@ -142,7 +134,7 @@
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:singleLine="false"
-                        android:text="STEAMED AND STEWED"
+                        android:text="ยำ"
                         android:textSize="18sp" />
 
                     <ImageView
@@ -165,7 +157,7 @@
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
                         android:singleLine="false"
-                        android:text="ESAN"
+                        android:text="อาหารอีสาน"
                         android:textSize="18sp" />
 
                     <ImageView
@@ -194,7 +186,7 @@
                         android:background="@android:color/transparent"
                         android:gravity="center|bottom"
                         android:paddingBottom="10dp"
-                        android:text="DESSERT"
+                        android:text="ของหวาน"
                         android:textSize="18sp" />
 
                     <ImageView
@@ -204,27 +196,6 @@
                         android:src="@color/colorPrimary" />
                 </RelativeLayout>
 
-                <RelativeLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="0.5">
-
-                    <Button
-                        android:id="@+id/CatBtn8"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@android:color/transparent"
-                        android:gravity="center|bottom"
-                        android:paddingBottom="10dp"
-                        android:text="OTHER"
-                        android:textSize="18sp" />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:src="@color/colorPrimary" />
-                </RelativeLayout>
             </TableRow>
 
 

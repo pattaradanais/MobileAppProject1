@@ -16,8 +16,15 @@
 <category android:name="android.intent.category.LAUNCHER" />
 </intent-filter>
     </activity>
-        <activity android:name=".Menu2" ></activity>
-        <activity android:name=".Menu3" ></activity>
+       <!-- <activity android:name=".TabTestActivity" /> -->
+        <activity android:name=".ShowDetailActivity" />
+        <activity android:name=".MainActivityFried" />
+        <activity android:name=".MainActivityStir" />
+        <activity android:name=".MainActivityCurry" />
+        <activity android:name=".MainActivityGrill" />
+        <activity android:name=".MainActivitySpicy" />
+        <activity android:name=".MainActivityEsan" />
+        <activity android:name=".MainActivityDest" />
       <!--  <activity
             android:name=".ButtomNevigationActivity"
             android:label="@string/title_activity_buttom_nevigation"></activity> -->
